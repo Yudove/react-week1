@@ -93,7 +93,7 @@ const WeekCircle = (props) => {
 const Container = styled.div`
 max-width: 350px;
 width: 80vw;
-height: 105vh;
+height: 80vh;
 margin: 5vh auto;
 padding: 5vh 0;
 border: 1px solid #ddd;
