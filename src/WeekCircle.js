@@ -1,4 +1,3 @@
-import { round } from "lodash";
 import React, { useState } from "react";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
@@ -93,7 +92,7 @@ const WeekCircle = (props) => {
 const Container = styled.div`
 max-width: 350px;
 width: 80vw;
-height: 80vh;
+height: 100vh;
 margin: 5vh auto;
 padding: 5vh 0;
 border: 1px solid #ddd;
